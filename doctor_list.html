@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+        
+        <!-- Bootstrap  Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <title>Product Management</title>
+    </head>
+    <body>
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg" style="background: rgba(10, 3, 134, 0.971);">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand text-white" href="#">Logo</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <div class="mr-3">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                
+                                <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="rounded-circle">
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li>
+                                    <hr class="dropdown-divider">
+                                  </li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                          </li>
+                    </ul>
+                    
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- Navbar Endt -->
+
+
+
+
+        
+        <!-- Table Start -->
+        <section class="container-sm mt-3">
+            <div class="row justify-space-between align-items-center">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header p-3 position-relative bg-dark ">
+                            <h4 class="card-title text-white"> Product list </h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example3_wrapper" class="dataTables_wrapper no-footer">
+                                    <div class="dataTables_length" id="example3_length">Show 
+                                        <label>
+                                            <div class="dropdown bootstrap-select">
+                                                <select name="example3_length" aria-controls="example3" class="" tabindex="-98">
+                                                    <option value="10">10</option>
+                                                    <option value="25">25</option>
+                                                    <option value="50">50</option>
+                                                    <option value="100">100</option>
+                                                </select>
+                                                <!-- <button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="10">
+                                                    <div class="filter-option">
+                                                        <div class="filter-option-inner">
+                                                            <div class="filter-option-inner-inner">10</div>
+                                                        </div> 
+                                                    </div>
+                                                </button> -->
+                                                <div class="dropdown-menu " role="combobox">
+                                                    <div class="inner show" role="listbox" aria-expanded="false" tabindex="-1">
+                                                        <ul class="dropdown-menu inner show"></ul>
+                                                    </div>
+                                                </div>entries
+                                            </div> 
+                                        </label>
+                                    </div>
+                                    <div id="example3_filter" class="dataTables_filter">
+                                        <label>Search:<input type="search" class="" placeholder="" aria-controls="example3"></label>
+                                    </div>
+                                    <table id="example3" class="table table-hover table-responsive-sm dataTable no-footer" style="min-width: 845px">
+                                        <thead>
+                                            <tr>
+                                                <th>S.No.</th>
+                                                <th>Name</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td></td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <a href="#" class="btn btn-info shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                        <a href="#" class="btn  shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                        <a href="#" class="btn  shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>1</th>
+                                                <td></td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <a href="#" class="btn btn-info shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                        <a href="#" class="btn  shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                        <a href="#" class="btn  shadow btn-sm sharp mr-1 mx-1"><i class="bi bi-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                    <div class="dataTables_info" id="example3_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries</div>
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example3_paginate">
+                                        <a class="paginate_button previous disabled" aria-controls="example3" data-dt-idx="0" tabindex="0" id="example3_previous">Previous</a>
+                                        <span><a class="paginate_button current" aria-controls="example3" data-dt-idx="1" tabindex="0">1</a></span>
+                                        <a class="paginate_button next disabled" aria-controls="example3" data-dt-idx="2" tabindex="0" id="example3_next">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+   
+    </body>
+    
+</html>

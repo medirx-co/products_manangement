@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+   
+    
+}
+.gradient-custom {
+    background-image: url("/image/technology.jpg");
+   
+    }
+.bg-glass{
+    /* border: 3px solid #f1f1f1; */
+    background: rgba(15, 15, 15, 0.7);
+    box-shadow: 0 4px 8px 0 white;
+}
+.form-control{
+    background: rgba(15, 15, 15, 0.5);
+}
+.login-btn{
+    width: 100%;
+}
