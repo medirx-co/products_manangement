@@ -5,21 +5,51 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    background-image: url("/image/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
    
+}
+.login-box {
+    /* background:#243D5D; */
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    justify-content: center;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px;
+    background: rgba(0, 0,0, 0.4);
     
 }
-.gradient-custom {
-    background-image: url("/image/technology.jpg");
-   
-    }
-.bg-glass{
-    /* border: 3px solid #f1f1f1; */
-    background: rgba(15, 15, 15, 0.7);
-    box-shadow: 0 4px 8px 0 white;
+.login-form {
+    text-align: left;
 }
-.form-control{
-    background: rgba(15, 15, 15, 0.5);
-}
-.login-btn{
+
+input[type="email"],input[type="text"],
+input[type="password"] {
     width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    color: #ffff;
+    height: 40px;
 }
+span {
+    color: white;
+    cursor: pointer;
+  }
+.login-form button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right,#327cdecf,#42618be6);
+    color: #ffff;
+    
+}
+.login-form button[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #202a84;
+    background-image: linear-gradient(to right,#202a84,#0c1b9d);
+}
+

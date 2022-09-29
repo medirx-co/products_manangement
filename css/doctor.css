@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color:#dfe6e9 ;
+}
+.box{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 5rem;
+}
+.login-box {
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.login-form {
+    text-align: left;
+}
+
+input[type="email"],input[type="text"],
+input[type="password"] {
+    width: 100%;
+    /* border-bottom: 1px solid rgb(11, 11, 11);
+    background: transparent; */
+    height: 40px;
+}
+/* span {
+    color: white;
+    cursor: pointer;
+  } */
+.login-form button[type="submit"]{
+    height: 40px;
+    background-image: linear-gradient(to right,#4391e0,#2334cb);
+}
+.login-form button[type="submit"]:hover{
+    cursor: pointer;
+    /* box-shadow: 1px 1px 10px #202a84; */
+    background-image: linear-gradient(to right,#202a84,#0c1b9d);
+}
+.product button[type="submit"]{
+    height: 40px;
+    background-image: linear-gradient(to right,#4391e0,#2334cb);
+}
+.product button[type="submit"]:hover{
+    cursor: pointer;
+    /* box-shadow: 1px 1px 10px #202a84; */
+    background-image: linear-gradient(to right,#202a84,#0c1b9d);
+}
