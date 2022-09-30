@@ -8,7 +8,17 @@ body{
     background-image: url("/image/computer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    backdrop-filter: brightness(0.45);
+  
+}
+.section{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .login-box {
     /* background:#243D5D; */
@@ -19,10 +29,10 @@ body{
     color: #fff;
     padding: 40px;
     background: rgba(0, 0,0, 0.4);
-    
 }
 .login-form {
     text-align: left;
+   
 }
 
 input[type="email"],input[type="text"],
